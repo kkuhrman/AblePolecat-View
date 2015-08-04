@@ -45,15 +45,7 @@ class AblePolecatView_Response_Home extends AblePolecatView_Response {
    *
    * @return DOMDocument $Document
    */
-  protected function preprocessEntityBody(DOMDocument $Document) {
-    //
-    // Ask the Pro form.
-    //
-    $Resource = $this->getResource();
-    $ComponentRegistration = AblePolecat_Registry_Entry_DomNode_Component::fetch('493e03a1-f36f-11e4-b9b2-0050569e00a2');
-    $askTheProComponent = AblePolecat_Component_Form::create($ComponentRegistration, $Resource);
-    $this->setComponent('493e03a1-f36f-11e4-b9b2-0050569e00a2', $askTheProComponent);
-    
+  protected function preprocessEntityBody(DOMDocument $Document) {    
     return parent::preprocessEntityBody($Document);
   }
 }
