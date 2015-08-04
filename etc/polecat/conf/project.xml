@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="yes"?>
+<polecat_project xmlns:polecat="http://polecat.kuhrman.com/">
+    <polecat:package id="34c99fba-3ae4-11e5-8795-e0699576cabe" name="AblePolecat-View" type="APP">
+      <polecat:repositoryUrl>https://github.com/kkuhrman/AblePolecat-View</polecat:repositoryUrl>
+      <polecat:classPrefix>AblePolecatView</polecat:classPrefix>
+      <polecat:classes>
+        <polecat:class id="e8013ff8-bd27-11e4-a12d-0050569e00a2" name="AblePolecatView_Response_Home">
+          <polecat:path>Response/Home.php</polecat:path>
+          <polecat:classFactoryMethod>create</polecat:classFactoryMethod>
+        </polecat:class>
+        <polecat:class id="ac84fc93-3ae7-11e5-8795-e0699576cabe" name="AblePolecatView_Resource_Default">
+          <polecat:path>Resource/Home.php</polecat:path>
+          <polecat:classFactoryMethod>wakeup</polecat:classFactoryMethod>
+        </polecat:class>
+        <polecat:class id="41855f13-3ae8-11e5-8795-e0699576cabe" name="AblePolecatView_Response" register="0">
+          <polecat:path>Response.php</polecat:path>
+          <polecat:classFactoryMethod></polecat:classFactoryMethod>
+        </polecat:class>
+        <polecat:class id="19c648f3-3ae8-11e5-8795-e0699576cabe" name="AblePolecatView_Path">
+          <polecat:path>Path.php</polecat:path>
+          <polecat:classFactoryMethod>__construct</polecat:classFactoryMethod>
+        </polecat:class>
+      </polecat:classes>
+      <polecat:classLibraries>
+        <!-- third party libraries and modules here -->
+      </polecat:classLibraries>
+      <polecat:components>
+        <polecat:component id="8d9af272-f406-11e4-b9b2-0050569e00a2" name="AblePolecatView_Component_Search">
+          <polecat:componentClass id="f0d65d62-f277-11e4-b9b2-0050569e00a2" name="AblePolecat_Component_Form" />
+        </polecat:component>
+      </polecat:components>
+      <polecat:locaters>
+        <polecat:locater id="polecat-database-0.7.2" name="polecat">
+          <polecat:dsn>mysql://username:password@localhost/databasename</polecat:dsn>
+        </polecat:locater>
+      </polecat:locaters>
+      <polecat:resourceClasses>
+        <polecat:resourceClass id="ac84fc93-3ae7-11e5-8795-e0699576cabe" name="AblePolecatView_Resource_Default">
+          <polecat:resource id="home" register="1" />
+        </polecat:resourceClass>
+      </polecat:resourceClasses>
+      <polecat:responseClasses>
+        <polecat:responseClass id="e8013ff8-bd27-11e4-a12d-0050569e00a2" name="AblePolecatView_Response_Home" register="1">
+          <polecat:resourceGroups>
+            <polecat:resourceGroup id="ac84fc93-3ae7-11e5-8795-e0699576cabe" statusCode="200" register="1">
+              <polecat:resource name="home" register="1" />
+            </polecat:resourceGroup>
+          </polecat:resourceGroups>
+        </polecat:responseClass>
+      </polecat:responseClasses>
+      <polecat:templates>
+        <polecat:template id="c71bc4dc-bd50-11e4-a12d-0050569e00a2" name="home" register="1">
+          <polecat:templateScope>document</polecat:templateScope>
+          <polecat:themeName>default</polecat:themeName>
+          <polecat:articleId>e8013ff8-bd27-11e4-a12d-0050569e00a2</polecat:articleId>
+          <polecat:docType>a:4:{s:12:"namespaceUri";s:28:"http://www.w3.org/1999/xhtml";s:13:"qualifiedName";s:4:"html";s:8:"publicId";s:25:"-//W3C//DTD XHTML 1.1//EN";s:8:"systemId";s:44:"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd";}</polecat:docType>
+          <polecat:path>template/default/page.tpl</polecat:path>
+        </polecat:template>
+      </polecat:templates>
+      <polecat:transactionClasses>
+        <polecat:transactionClass id="7bf12d40-23df-11e4-8c21-0800200c9a66" name="AblePolecat_Transaction_Unrestricted">
+          <polecat:resourceGroups>
+            <polecat:resourceGroup id="ac84fc93-3ae7-11e5-8795-e0699576cabe" name="home" requestMethod="GET" accessDeniedCode="200" register="1">
+              <polecat:resource name="home" register="1"/>
+            </polecat:resourceGroup>
+          </polecat:resourceGroups>
+        </polecat:transactionClass>
+      </polecat:transactionClasses>
+    </polecat:package>
+</polecat_project>
