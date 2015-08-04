@@ -8,6 +8,7 @@
     <meta name="author" content="Karl Kuhrman">
     
     <!-- Favicon -->
+    <!--
     <link rel="apple-touch-icon" sizes="57x57" href="{!AblePolecatView.themeUrl}/assets/img/icons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{!AblePolecatView.themeUrl}/assets/img/icons/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="72x72" href="{!AblePolecatView.themeUrl}/assets/img/icons/apple-touch-icon-72x72.png">
@@ -24,6 +25,7 @@
     <link rel="icon" type="image/png" href="{!AblePolecatView.themeUrl}/assets/img/icons/favicon-32x32.png" sizes="32x32">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="{!AblePolecatView.themeUrl}/assets/img/icons/mstile-144x144.png">
+    -->
 
     <!-- CSS Core  -->
     <link rel="stylesheet" href="{!AblePolecatView.themeUrl}/assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -39,7 +41,7 @@
     <!--[if lt IE 9]><link rel="stylesheet" href="{!AblePolecatView.themeUrl}/assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
 
     <!-- CSS Theme -->    
-    <link rel="stylesheet" href="{!AblePolecatView.themeUrl}/assets/css/theme-colors/red.css" id="style_color">
+    <link rel="stylesheet" href="{!AblePolecatView.themeUrl}/assets/css/theme-colors/blue.css" id="style_color">
 
     <!-- CSS Custom -->
     <link rel="stylesheet" href="{!AblePolecatView.themeUrl}/assets/css/custom.css">
