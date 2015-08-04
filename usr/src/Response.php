@@ -169,9 +169,9 @@ class AblePolecatView_Response extends AblePolecat_Message_Response_Xhtml_Tpl {
     // Search form.
     //
     $Resource = $this->getResource();
-    $ComponentRegistration = AblePolecat_Registry_Entry_DomNode_Component::fetch('8d9af272-f406-11e4-b9b2-0050569e00a2');
+    $ComponentRegistration = AblePolecat_Registry_Entry_DomNode_Component::fetch('7665ad41-3aed-11e5-8795-e0699576cabe');
     $searchComponent = AblePolecat_Component_Form::create($ComponentRegistration, $Resource);
-    $this->setComponent('8d9af272-f406-11e4-b9b2-0050569e00a2', $searchComponent);
+    $this->setComponent('7665ad41-3aed-11e5-8795-e0699576cabe', $searchComponent);
     
     return parent::preprocessEntityBody($Document);
   }

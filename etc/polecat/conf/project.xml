@@ -25,7 +25,7 @@
         <!-- third party libraries and modules here -->
       </polecat:classLibraries>
       <polecat:components>
-        <polecat:component id="8d9af272-f406-11e4-b9b2-0050569e00a2" name="AblePolecatView_Component_Search">
+        <polecat:component id="7665ad41-3aed-11e5-8795-e0699576cabe" name="AblePolecatView_Component_Search">
           <polecat:componentClass id="f0d65d62-f277-11e4-b9b2-0050569e00a2" name="AblePolecat_Component_Form" />
         </polecat:component>
       </polecat:components>
