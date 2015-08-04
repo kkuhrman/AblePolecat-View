@@ -9,13 +9,13 @@
  
 require_once(ABLE_POLECAT_SRC . DIRECTORY_SEPARATOR . 'Response.php');
 
-class AblePolecatView_Response_Home extends AblePolecatView_Response {
+class AblePolecatView_Response_Default extends AblePolecatView_Response {
   
   /**
    * Registry article constants.
    */
   const UUID = 'e8013ff8-bd27-11e4-a12d-0050569e00a2';
-  const NAME = 'AblePolecatView_Response_Home';
+  const NAME = 'AblePolecatView_Response_Default';
   
   /********************************************************************************
    * Implementation of AblePolecat_DynamicObjectInterface.
@@ -27,7 +27,7 @@ class AblePolecatView_Response_Home extends AblePolecatView_Response {
    * @return AblePolecat_MessageInterface Concrete instance of message or NULL.
    */
   public static function create() {    
-    $Response = self::setConcreteInstance(new AblePolecatView_Response_Home());
+    $Response = self::setConcreteInstance(new AblePolecatView_Response_Default());
     $ArgsList = self::unmarshallArgsList(__FUNCTION__, func_get_args());
     return self::getConcreteInstance();
   }

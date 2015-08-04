@@ -4,12 +4,12 @@
       <polecat:repositoryUrl>https://github.com/kkuhrman/AblePolecat-View</polecat:repositoryUrl>
       <polecat:classPrefix>AblePolecatView</polecat:classPrefix>
       <polecat:classes>
-        <polecat:class id="e8013ff8-bd27-11e4-a12d-0050569e00a2" name="AblePolecatView_Response_Home">
-          <polecat:path>Response/Home.php</polecat:path>
+        <polecat:class id="e8013ff8-bd27-11e4-a12d-0050569e00a2" name="AblePolecatView_Response_Default">
+          <polecat:path>Response/Default.php</polecat:path>
           <polecat:classFactoryMethod>create</polecat:classFactoryMethod>
         </polecat:class>
         <polecat:class id="ac84fc93-3ae7-11e5-8795-e0699576cabe" name="AblePolecatView_Resource_Default">
-          <polecat:path>Resource/Home.php</polecat:path>
+          <polecat:path>Resource/Default.php</polecat:path>
           <polecat:classFactoryMethod>wakeup</polecat:classFactoryMethod>
         </polecat:class>
         <polecat:class id="41855f13-3ae8-11e5-8795-e0699576cabe" name="AblePolecatView_Response" register="0">
@@ -40,7 +40,7 @@
         </polecat:resourceClass>
       </polecat:resourceClasses>
       <polecat:responseClasses>
-        <polecat:responseClass id="e8013ff8-bd27-11e4-a12d-0050569e00a2" name="AblePolecatView_Response_Home" register="1">
+        <polecat:responseClass id="e8013ff8-bd27-11e4-a12d-0050569e00a2" name="AblePolecatView_Response_Default" register="1">
           <polecat:resourceGroups>
             <polecat:resourceGroup id="ac84fc93-3ae7-11e5-8795-e0699576cabe" statusCode="200" register="1">
               <polecat:resource name="home" register="1" />
@@ -55,6 +55,12 @@
           <polecat:articleId>e8013ff8-bd27-11e4-a12d-0050569e00a2</polecat:articleId>
           <polecat:docType>a:4:{s:12:"namespaceUri";s:28:"http://www.w3.org/1999/xhtml";s:13:"qualifiedName";s:4:"html";s:8:"publicId";s:25:"-//W3C//DTD XHTML 1.1//EN";s:8:"systemId";s:44:"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd";}</polecat:docType>
           <polecat:path>template/default/page.tpl</polecat:path>
+        </polecat:template>
+        <polecat:template id="790617ad-f407-11e4-b9b2-0050569e00a2" name="AblePolecatView_Component_Search.tpl">
+          <polecat:articleId>7665ad41-3aed-11e5-8795-e0699576cabe</polecat:articleId>
+          <polecat:path>component/AblePolecatView_Component_Search.tpl</polecat:path>
+          <polecat:templateScope>element</polecat:templateScope>
+          <polecat:themeName>default</polecat:themeName>
         </polecat:template>
       </polecat:templates>
       <polecat:transactionClasses>
