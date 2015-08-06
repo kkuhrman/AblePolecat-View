@@ -1,0 +1,58 @@
+/*brands Page
+------------------------------------*/
+.brands-page { 
+	overflow: hidden;
+}
+
+.brands-page, ul {
+	padding-left: 0px;
+}
+
+.brands-page li {
+	display: inline-block;
+	list-style: none;
+}
+
+.brands-page img { 
+	float: left;
+	width: 120px;
+	height: 120px;
+	margin-right: 20px;
+	background: #fafafa;
+	border: solid 1px #eee;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.brands-page { 
+	overflow: hidden;
+}
+.brands-page p { 
+	overflow: auto;
+}
+.brands-page p a { 
+	overflow: auto;
+	text-decoration: underline;
+}
+.brands-page a.img-hover {
+	display: block;
+	position: relative;
+}
+.brands-page img { 
+	float: left;
+	width: 120px;
+	height: 120px;
+	margin-right: 20px;
+	background: #fafafa;
+	border: solid 1px #eee;
+}
+.brands-page img.img-colorful {
+	display: none;
+}
+.brands-page a:hover img.img-colorful,
+.brands-page:hover img.img-colorful {
+	top: 0; 
+	left: 0;
+	display: block;
+	position: absolute;
+}
